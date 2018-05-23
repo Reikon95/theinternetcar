@@ -1,4 +1,4 @@
-var age = prompt("Please Enter Your Age");
+var age = prompt("Welcome to the internet car! Please Enter Your Age");
 
 if (Number (age) <18 ){
 
