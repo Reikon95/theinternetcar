@@ -1,16 +1,12 @@
-var age = prompt("Please Enter Your Age");
+alert("Welcome to the keyless car - let's go!");
+var age = prompt("Wait, how old are you?");
 
-if (Number (age) <18 ){
-
-	alert("Sorry, you are too young to drive.");
-} else if (Number (age) ===18 ){
-
-	alert("Congrats on passing! Enjoy the ride")
-} else if (Number (age) >18){
-
-	alert("Vroom Vroom")
+if (age > 18){
+	alert("Vrooooooom");
+} else if (age < 18){
+	alert("Sorry, you're too young to drive. Powering off");
+} else if (age === 18) {
+		alert("Well done on passing your test, time to drive!");
+} else {
+	alert("Hmmm, something is not right here!");
 }
-
-//prompt welcomes the user and gives the information, and then the user inputs this. When they put in less then 18, the browser alerts the user
-//that they are too young to drive. If they enter exactly 18, it congratulates them on passing. If over 18, the engine makes a noise.
-//I made this to learn about else if and the prompt/alert useage. 
